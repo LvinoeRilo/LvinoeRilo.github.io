@@ -1,0 +1,210 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background: #212121;
+    z-index: 2;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 45px;
+}
+
+.sub_header {
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    height: 87px;
+    background: rgba(0, 0, 0, .6);
+}
+
+.sub_header .subheader_logo {
+    display: block;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.sub_header .subheader_text{
+    margin-top: 6px;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.sub_header .subheader_call{
+    margin-top: 19px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.sub_header .subheader_nums{
+    display: block;
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: right;
+    line-height: 14px;
+}
+
+.sub_header .subheader_btn {
+    display: block;
+    margin-top: 19px;
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.promo {
+    min-height: 800px;
+    background: url('../img/section1_bg.png') center center/cover no-repeat;
+    padding: 190px 0 135px 0;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_description {
+    margin-top: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    color:#FFFFFF;
+    text-align: center;
+    line-height: 24px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto 0 auto;
+    width: 259px;
+    height: 63px;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    background: linear-gradient(to top, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+}
+
+.reasons {
+    min-height: 850px;
+    padding: 20px 0 65px 0;
+}
+
+.reasons .label {
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background: #000000;
+    padding: 6px 0 0 12px;
+    font-weight: 400;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.reasons h2 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #222222;
+}
+
+.reasons .reasons_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.reasons .reasons_box .round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px; 
+    width: 116px;
+    height: 116px;
+    border-radius:100%;
+    background: #1EACC7;
+}
+
+.reasons .reasons_box .reasons_text {
+    width:  371px;
+}
+
+.reasons .reasons_box .reasons_text .reasons_title {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+
+.reasons .reasons_box .reasons_text .reasons_descr {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    color: #202020;
+}
